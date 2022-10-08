@@ -1,5 +1,6 @@
 import random
-number = random.randint(1,100)
+range_num = int(input("請輸入一個數字範圍"))
+number = random.randint(1,range_num)
 i = 0
 while True:
 	guess = int(input("請輸入1個整數"))
